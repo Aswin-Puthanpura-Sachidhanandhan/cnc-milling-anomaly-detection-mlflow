@@ -1,0 +1,33 @@
+# Credentials
+.env
+kaggle.json
+*.key
+*.pem
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Raw and processed data
+data/
+*.csv
+*.zip
+*.parquet
+*.delta
+
+# Local MLflow artifacts
+mlruns/
+models/
+*.pkl
+*.joblib
+
+# Databricks and notebook files
+.databricks/
+.ipynb_checkpoints/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
